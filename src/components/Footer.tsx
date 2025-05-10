@@ -32,7 +32,7 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Contact</h3>
-            <p>Email: 
+            <p>Email:  
               <a href="mailto:CyberTechOcean@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -40,7 +40,7 @@ export default function Footer() {
                 CyberTechOcean@gmail.com
               </a>
             </p>
-            <p>WhatsApp: 
+            <p>WhatsApp:  
               <a 
               href="https://wa.me/254706943651?text=Hello%20*CyberTechOcean*%20%F0%9F%91%8B%F0%9F%8F%BB" 
               target="_blank"

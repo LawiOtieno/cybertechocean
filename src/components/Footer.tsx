@@ -32,8 +32,23 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Contact</h3>
-            <p>Email: CyberTechOcean@gmail.com</p>
-            <p>Phone: +254706943651</p>
+            <p>Email: 
+              <a href="mailto:CyberTechOcean@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:bg-green-600 transition-colors">
+                CyberTechOcean@gmail.com
+              </a>
+            </p>
+            <p>WhatsApp: 
+              <a 
+              href="https://wa.me/254706943651?text=Hello%20*CyberTechOcean*%20%F0%9F%91%8B%F0%9F%8F%BB" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:bg-green-600 transition-colors">
+                +254 706 943 651
+              </a>
+            </p>
             <p>Location: Ruaraka, Nairobi, Kenya</p>
           </div>
           <div>

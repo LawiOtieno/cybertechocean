@@ -14,7 +14,7 @@ export default function Home() {
           <p className="text-xl mb-8 text-gray-300">
             All-in-one web, tech & regulatory solutions to help your business sail smoothly online.
           </p>
-          <div className="flex justify-center mb-8">
+          <div className="flex justify-center mb-8 text-black">
             <SearchBar />
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

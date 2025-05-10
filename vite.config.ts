@@ -12,7 +12,7 @@ export default defineConfig({
       clientPort: 443
     },
     allowedHosts: [
-      "78557846-d5be-4f6c-9d62-c35c20684158-00-35sk86o06vbon.spock.replit.dev"
+      "https://cybertechocean.vercel.app/"
     ]
   },
   preview: {

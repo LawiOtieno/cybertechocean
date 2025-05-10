@@ -995,9 +995,369 @@ export const graphicDesignServices: Service[] = [
 ];
 
 // Update the exports to include graphic design services
+export const onlineMarketingServices: Service[] = [
+  {
+    id: "social-media-management",
+    name: "Social Media Management",
+    category: "Online Services & Digital Marketing",
+    description: "Strategic planning and scheduling of 30 branded posts per month across your chosen platforms, complete with captions, hashtags, and posting calendar",
+    price: "KSh 5,000",
+    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80",
+    details: `
+      Our Social Media Management Package includes:
+
+      Monthly Content Calendar:
+      • 30 branded posts per month
+      • Strategic content planning
+      • Platform-specific optimization
+      • Hashtag research and strategy
+
+      Content Creation:
+      • Custom graphics
+      • Engaging captions
+      • Strategic hashtags
+      • Posting schedule
+
+      Management Features:
+      • Content scheduling
+      • Platform optimization
+      • Performance tracking
+      • Monthly analytics
+    `
+  },
+  {
+    id: "seo-audit-optimization",
+    name: "SEO Audit & Optimization",
+    category: "Online Services & Digital Marketing",
+    description: "Comprehensive website audit to identify SEO gaps, in-depth keyword research, and implementation of on-page optimizations (meta tags, headings, URLs)",
+    price: "KSh 3,000",
+    image: "https://images.unsplash.com/photo-1572177812156-58036aae439c?auto=format&fit=crop&q=80",
+    details: `
+      Our SEO Audit & Optimization includes:
+
+      Technical Audit:
+      • Site structure analysis
+      • Speed optimization
+      • Mobile responsiveness
+      • Technical SEO issues
+
+      Content Optimization:
+      • Keyword research
+      • Meta tags optimization
+      • Heading structure
+      • URL optimization
+
+      Deliverables:
+      • Detailed audit report
+      • Implementation guide
+      • Keyword strategy
+      • Optimization roadmap
+    `
+  },
+  {
+    id: "ads-setup",
+    name: "Google Ads / Facebook Ads Setup",
+    category: "Online Services & Digital Marketing",
+    description: "Creation and configuration of targeted ad campaigns on Google and Facebook, including audience research, ad copywriting, and tracking pixel integration",
+    price: "KSh 4,000",
+    image: "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&q=80",
+    details: `
+      Our Ads Setup Package includes:
+
+      Campaign Setup:
+      • Account configuration
+      • Campaign structure
+      • Ad group creation
+      • Targeting setup
+
+      Creative Development:
+      • Ad copywriting
+      • Image selection
+      • Call-to-action optimization
+      • A/B testing setup
+
+      Technical Integration:
+      • Pixel installation
+      • Conversion tracking
+      • Analytics setup
+      • Performance monitoring
+    `
+  },
+  {
+    id: "email-marketing-setup",
+    name: "Email Marketing Setup",
+    category: "Online Services & Digital Marketing",
+    description: "Custom-designed email templates and audience segmentation strategy to boost open and click-through rates, plus integration with your email service provider",
+    price: "KSh 3,500",
+    image: "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&q=80",
+    details: `
+      Our Email Marketing Setup includes:
+
+      Template Design:
+      • Custom email templates
+      • Responsive design
+      • Brand integration
+      • Call-to-action optimization
+
+      Strategy Development:
+      • Audience segmentation
+      • Content planning
+      • Automation setup
+      • Testing strategy
+
+      Technical Setup:
+      • ESP integration
+      • List management
+      • Analytics setup
+      • Deliverability optimization
+    `
+  },
+  {
+    id: "digital-branding-consultation",
+    name: "Digital Branding Consultation",
+    category: "Online Services & Digital Marketing",
+    description: "One-on-one consultation to define your brand's unique voice, visual identity guidelines, and messaging framework for consistent digital presence",
+    price: "KSh 4,000",
+    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80",
+    details: `
+      Our Digital Branding Consultation includes:
+
+      Brand Strategy:
+      • Voice definition
+      • Visual identity guidelines
+      • Messaging framework
+      • Target audience analysis
+
+      Implementation Guide:
+      • Style guide creation
+      • Template development
+      • Asset organization
+      • Usage guidelines
+
+      Support Materials:
+      • Brand guidelines document
+      • Asset templates
+      • Implementation checklist
+      • Training resources
+    `
+  }
+];
+
+export const academicServices: Service[] = [
+  {
+    id: "assignment-writing",
+    name: "Assignment & Term Paper Writing",
+    category: "Academics Services",
+    description: "Research, writing and formatting (undergraduate & postgraduate)",
+    price: "KSh 3,000",
+    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80",
+    details: `
+      Our Assignment Writing Service includes:
+
+      Research & Writing:
+      • Topic analysis
+      • Literature review
+      • Content development
+      • Academic writing
+
+      Formatting:
+      • Citation styles (APA, MLA)
+      • Document structure
+      • Page formatting
+      • Reference management
+    `
+  },
+  {
+    id: "report-writing",
+    name: "Report Writing",
+    category: "Academics Services",
+    description: "Data‐driven report drafting, citation and formatting",
+    price: "KSh 8,000",
+    image: "https://images.unsplash.com/photo-1506784365847-bbad939e9335?auto=format&fit=crop&q=80",
+    details: `
+      Our Report Writing Service includes:
+
+      Report Development:
+      • Data analysis
+      • Report structure
+      • Content writing
+      • Visualization
+
+      Professional Polish:
+      • Citation formatting
+      • Quality check
+      • Document formatting
+      • Final review
+    `
+  },
+  {
+    id: "concept-note",
+    name: "Concept Note Preparation",
+    category: "Academics Services",
+    description: "Brief proposal development for grants or academic assignments",
+    price: "KSh 2,000",
+    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80",
+    details: `
+      Our Concept Note Service includes:
+
+      Development:
+      • Idea articulation
+      • Project outline
+      • Methodology
+      • Timeline planning
+
+      Documentation:
+      • Professional formatting
+      • Review and editing
+      • Final polish
+      • Submission prep
+    `
+  },
+  {
+    id: "research-proposals",
+    name: "Funding & Research Proposals",
+    category: "Academics Services",
+    description: "Full proposal (background, methodology, budget, timelines)",
+    price: "KSh 2,500",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80",
+    details: `
+      Our Research Proposal Service includes:
+
+      Proposal Components:
+      • Background research
+      • Methodology design
+      • Budget planning
+      • Timeline creation
+
+      Documentation:
+      • Professional formatting
+      • Citation management
+      • Review and editing
+      • Submission prep
+    `
+  },
+  {
+    id: "plagiarism-removal",
+    name: "Plagiarism Removal & Editing",
+    category: "Academics Services",
+    description: "Rewriting to eliminate duplication; includes similarity report",
+    price: "KSh 300",
+    image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&q=80",
+    details: `
+      Our Plagiarism Removal Service includes:
+
+      Content Review:
+      • Similarity check
+      • Content rewriting
+      • Citation verification
+      • Reference check
+
+      Quality Assurance:
+      • Final scan
+      • Report generation
+      • Document formatting
+      • Professional polish
+    `
+  },
+  {
+    id: "application-letters",
+    name: "Application & Other Letters",
+    category: "Academics Services",
+    description: "Motivation letters, recommendation requests, leave applications, etc.",
+    price: "KSh 250",
+    image: "https://images.unsplash.com/photo-1586297098710-0382a496c814?auto=format&fit=crop&q=80",
+    details: `
+      Our Letter Writing Service includes:
+
+      Letter Types:
+      • Motivation letters
+      • Recommendation requests
+      • Leave applications
+      • Academic correspondence
+
+      Professional Polish:
+      • Content development
+      • Formatting
+      • Review and editing
+      • Final check
+    `
+  },
+  {
+    id: "thesis-formatting",
+    name: "Postgraduate Thesis Formatting",
+    category: "Academics Services",
+    description: "Pagination, reference styling (APA, MLA, etc.)",
+    price: "KSh 2,500",
+    image: "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?auto=format&fit=crop&q=80",
+    details: `
+      Our Thesis Formatting Service includes:
+
+      Format Elements:
+      • Page numbering
+      • Citation styling
+      • Reference formatting
+      • Table/figure formatting
+
+      Style Guidelines:
+      • APA formatting
+      • MLA formatting
+      • Chicago style
+      • Custom styles
+    `
+  },
+  {
+    id: "statistical-analysis",
+    name: "Statistical Data Analysis (SPSS/Stata)",
+    category: "Academics Services",
+    description: "Data cleaning, analysis, interpretation, report generation",
+    price: "KSh 4,000",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80",
+    details: `
+      Our Statistical Analysis Service includes:
+
+      Data Processing:
+      • Data cleaning
+      • Variable coding
+      • Analysis execution
+      • Result interpretation
+
+      Deliverables:
+      • Statistical reports
+      • Data visualization
+      • Interpretation guide
+      • Documentation
+    `
+  },
+  {
+    id: "academic-presentation",
+    name: "Presentation Design (Academic)",
+    category: "Academics Services",
+    description: "Slide decks with charts, infographics, animations",
+    price: "KSh 1,000",
+    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80",
+    details: `
+      Our Academic Presentation Service includes:
+
+      Design Elements:
+      • Slide layout
+      • Chart creation
+      • Infographic design
+      • Animation effects
+
+      Content Development:
+      • Content organization
+      • Visual hierarchy
+      • Citation formatting
+      • Professional polish
+    `
+  }
+];
+
 export const allServices = [
   ...websiteDevelopmentServices,
   ...governmentServices,
   ...careerServices,
-  ...graphicDesignServices
+  ...graphicDesignServices,
+  ...onlineMarketingServices,
+  ...academicServices
 ];

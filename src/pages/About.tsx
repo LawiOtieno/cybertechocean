@@ -60,11 +60,16 @@ export default function About() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* Hero Section */}
-      <div className="text-center mb-16">
-        <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-[#34f4a4] to-[#ff0000] text-transparent bg-clip-text">
-          About CyberTechOcean
-        </h1>
-      </div>
+      <section className="bg-gradient-to-r from-[#1a1a1a] to-[#2a2a2a] text-white py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-[#34f4a4] to-[#ff0000] text-transparent bg-clip-text">
+            About CyberTechOcean
+          </h1>
+          <p className="text-xl text-gray-300">
+            Know why CyberTechOcean is the trusted tech partner for individuals, businesses, and institutions in Nairobi and beyond.
+          </p>
+        </div>
+      </section>
 
       {/* Our Story */}
       <div className="bg-white rounded-lg shadow-lg p-8 mb-12">

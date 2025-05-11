@@ -1,4 +1,3 @@
-
 export default function About() {
   const values = [
     {
@@ -78,7 +77,7 @@ export default function About() {
           <p className="text-gray-600 mb-8">
             Founded in Ruaraka, Nairobi, CyberTechOcean began as a vision to empower individuals and businesses through accessible digital resources. What started as a modest cyber café has grown into a full-service technology partner—offering everything from high-speed internet access and printing to bespoke web development, regulatory compliance, and digital marketing solutions.
           </p>
-          
+
           <div className="border-l-4 border-[#34f4a4] pl-6 mb-8">
             <h3 className="text-xl font-bold mb-2">Meet Our Founder</h3>
             <h4 className="font-semibold mb-2">Lawrence Otieno</h4>

@@ -50,6 +50,9 @@ export default function Services() {
           <p className="text-xl text-gray-300">
             Empowering your digital journey with expert solutions tailored to your needs.
           </p>
+          <p>
+            <br />
+          </p>
           <div className="flex justify-center mb-8 text-black">
             <SearchBar />
           </div>

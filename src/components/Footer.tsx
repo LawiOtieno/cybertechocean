@@ -30,7 +30,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4 text-red-600">CyberTechOcean</h3>
             <p>
               Your one-stop cyber café solution. We provide Web Development, Career Assistance, 
-              Government  Services (eCitizen), Graphic Design, Digital Marketing, and Data Analysis.
+              Government  Services (eCitizen), Graphic Design, Digital Marketing, Academic Writing, and Data Analysis.
             </p>
           </div>
           <div>

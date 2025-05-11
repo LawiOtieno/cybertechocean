@@ -12,7 +12,7 @@ export default function Home() {
             Navigate Your Digital Frontier with CyberTechOcean
           </h1>
           <p className="text-xl mb-8 text-gray-300">
-            We provide Web Development, Career Assistance, Government  Services (eCitizen), Graphic Design, Digital Marketing, and Data Analysis.
+            We provide Web Development, Career Assistance, Government  Services (eCitizen), Graphic Design, Digital Marketing, Academic Writing, and Data Analysis.
           </p>
           <div className="flex justify-center mb-8 text-black">
             <SearchBar />

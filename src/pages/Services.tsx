@@ -49,7 +49,7 @@ export default function Services() {
           </h1>
           <p className="text-xl text-gray-300">
             Empowering your digital journey with expert solutions tailored to your needs. Our range of services includes Web Development, Career Assistance, 
-            Government Services (eCitizen), Graphic Design, Digital Marketing, and Data Analysis.
+            Government Services (eCitizen), Graphic Design, Digital Marketing, Academic Writing, and Data Analysis.
           </p>
           <p>
             <br />

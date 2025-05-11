@@ -46,6 +46,22 @@ export default function Testimonials() {
       quote: "Working with CyberTechOcean on our digital marketing campaign was a game changer—we saw a 40% increase in leads.",
       author: "Linda Kariuki",
       company: "GrowthWave Consulting"
+    },
+    // Social media management testimonials
+    {
+      quote: "Since CyberTechOcean took over our social media, engagement at Limbs Orthopaedic has doubled—our appointment bookings through Instagram DMs are off the charts!",
+      author: "Dr. Collins Otieno",
+      company: "Limbs Orthopaedic, Kasarani"
+    },
+    {
+      quote: "Our follower count on Facebook and Pinterest grew by over 50% in just two months thanks to their targeted campaigns for Richsmart General Works.",
+      author: "Richard Omedo",
+      company: "Richsmart General Works"
+    },
+    {
+      quote: "CyberTechOcean’s social media strategy for Unspotted Africa Auto Spares has driven consistent lead generation—our inbox and WhatsApp are buzzing daily!",
+      author: "Oscar Otieno",
+      company: "Unspotted Africa Auto Spares"
     }
   ];
 

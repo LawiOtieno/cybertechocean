@@ -133,25 +133,6 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Map */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">Find Our Office</h2>
-          <div className="aspect-w-16 aspect-h-9">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.462950468223!2d36.87655494999999!3d-1.2191733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f15b9976751c1%3A0xf97a86fce71d56ce!2sRuaraka%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1653835271619!5m2!1sen!2ske"
-              width="100%"
-              height="450"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              className="rounded-lg shadow-lg"
-            ></iframe>
-          </div>
-        </div>
-      </section>
-
       {/* Social Links */}
       <section className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
@@ -183,6 +164,25 @@ export default function Contact() {
                 <p className="text-gray-600">{faq.answer}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Map */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-2xl font-bold mb-6">Find Our Office</h2>
+          <div className="aspect-w-16 aspect-h-9">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.462950468223!2d36.87655494999999!3d-1.2191733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f15b9976751c1%3A0xf97a86fce71d56ce!2sRuaraka%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1653835271619!5m2!1sen!2ske"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="rounded-lg shadow-lg"
+            ></iframe>
           </div>
         </div>
       </section>

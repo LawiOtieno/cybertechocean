@@ -28,7 +28,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4 text-red-600">CyberTechOcean</h3>
-            <p>Your one-stop cyber café solution</p>
+            <p>
+              Your one-stop cyber café solution. We provide Web Development, Career Assistance, 
+              Government  Services (eCitizen), Graphic Design, Digital Marketing, and Data Analysis.
+            </p>
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Contact</h3>

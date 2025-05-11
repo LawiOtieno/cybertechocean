@@ -20,24 +20,32 @@ export default function About() {
 
   const services = [
     {
-      title: "Cyber Café & Co-Working",
-      description: "Fast internet, printing, scanning, and comfortable workstations."
+      title: "Web Development",
+      description: "Custom websites, e-commerce platforms, LMS solutions, and ongoing maintenance."
     },
     {
-      title: "Web & App Development",
-      description: "Custom sites, e-commerce, LMS platforms, and ongoing maintenance."
+      title: "Career Assistance",
+      description: "CV & cover-letter writing, interview prep, career coaching, and LinkedIn profile optimization."
     },
     {
-      title: "Regulatory Compliance",
-      description: "KRA returns, e-Citizen facilitation, and business registration services."
+      title: "Government Services (eCitizen)",
+      description: "KRA returns, business registration, and passport & immigration facilitation via eCitizen."
     },
     {
-      title: "Branding & Digital Marketing",
-      description: "Logos, social-media campaigns, SEO, and paid ad management."
+      title: "Graphic Design",
+      description: "Logos, brand assets, social-media graphics, marketing collateral, and print layouts."
     },
     {
-      title: "Professional Support",
-      description: "CV writing, career consultations, and KRA filing assistance."
+      title: "Digital Marketing",
+      description: "SEO, content strategy, social-media campaigns, and paid-ads management."
+    },
+    {
+      title: "Academic Writing",
+      description: "Research papers, essays, theses, and professional proofreading/editing."
+    },
+    {
+      title: "Data Analysis",
+      description: "Data cleaning, visualization, dashboard creation, and actionable insights."
     }
   ];
 
@@ -75,7 +83,7 @@ export default function About() {
         <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
           <h2 className="text-2xl font-bold mb-6">Our Story</h2>
           <p className="text-gray-600 mb-8">
-            Founded in Ruaraka, Nairobi, CyberTechOcean began as a vision to empower individuals and businesses through accessible digital resources. What started as a modest cyber café has grown into a full-service technology partner—offering everything from high-speed internet access and printing to bespoke web development, regulatory compliance, and digital marketing solutions.
+            Founded in Ruaraka, Nairobi, CyberTechOcean began as a vision to empower individuals and businesses through accessible digital resources. What started as a modest cyber café has grown into a full-service technology partner—offering everything from printing and comfortable workstations to bespoke web development, regulatory compliance, and digital marketing solutions.
           </p>
 
           <div className="border-l-4 border-[#34f4a4] pl-6 mb-8">

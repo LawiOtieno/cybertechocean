@@ -32,7 +32,6 @@ export default function Testimonials() {
       author: "Peter Mwangi",
       company: "Small Business Owner"
     },
-    // New testimonials
     {
       quote: "The data analysis dashboard they delivered transformed how we track sales data—actionable insights in real time.",
       author: "Sarah Wanjiku",
@@ -111,7 +110,8 @@ export default function Testimonials() {
         </div>
 
         <div className="text-center">
-          <h2 className="text-2xl font-bold mb-4">Share Your Story</n          <p className="text-gray-600 mb-6">
+          <h2 className="text-2xl font-bold mb-4">Share Your Story</h2>
+          <p className="text-gray-600 mb-6">
             Have we helped you succeed? We'd love to hear how CyberTechOcean has made a difference for your business or career.
           </p>
           <Link

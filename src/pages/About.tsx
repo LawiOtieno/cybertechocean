@@ -58,7 +58,7 @@ export default function About() {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="min-h-screen">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-[#1a1a1a] to-[#2a2a2a] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -70,7 +70,9 @@ export default function About() {
           </p>
         </div>
       </section>
-
+    </div>
+    
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* Our Story */}
       <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
         <h2 className="text-2xl font-bold mb-6">Our Story</h2>

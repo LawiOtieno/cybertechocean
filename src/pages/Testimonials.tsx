@@ -55,7 +55,8 @@ export default function Testimonials() {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="min-h-screen">
+      {/* Hero Section */}
       <section className="bg-gradient-to-r from-[#1a1a1a] to-[#2a2a2a] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-[#34f4a4] to-[#ff0000] text-transparent bg-clip-text">
@@ -66,6 +67,9 @@ export default function Testimonials() {
           </p>
         </div>
       </section>
+    </div>
+
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
         {testimonials.map((testimonial, index) => (

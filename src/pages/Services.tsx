@@ -40,7 +40,8 @@ export default function Services() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="min-h-screen">
+      {/* Hero Section */}
       <section className="bg-gradient-to-r from-[#1a1a1a] to-[#2a2a2a] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-[#34f4a4] to-[#ff0000] text-transparent bg-clip-text">
@@ -49,11 +50,16 @@ export default function Services() {
           <p className="text-xl text-gray-300">
             Empowering your digital journey with expert solutions tailored to your needs.
           </p>
+          <div className="flex justify-center mb-8 text-black">
+            <SearchBar />
+          </div>
         </div>
       </section>
+    </div>
+
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       
       <div className="flex flex-col items-center gap-6 mb-8">
-        <SearchBar />
         <div className="flex justify-center">
           <select 
             value={selectedCategory || ''} 

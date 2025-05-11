@@ -86,19 +86,34 @@ export default function Contact() {
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <FontAwesomeIcon icon={faEnvelope} className="text-4xl text-[#34f4a4] mb-4" />
             <h3 className="text-xl font-semibold mb-2">Email</h3>
-            <p className="text-gray-600">CyberTechOcean@gmail.com</p>
+            <p>
+              <a href="mailto:CyberTechOcean@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#34f4a4]">
+                CyberTechOcean@gmail.com
+              </a>
+            </p>
             <p className="text-sm text-gray-500 mt-2">(Replies within 2 business hours)</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <FontAwesomeIcon icon={faPhone} className="text-4xl text-[#34f4a4] mb-4" />
             <h3 className="text-xl font-semibold mb-2">Phone & WhatsApp</h3>
-            <p className="text-gray-600">+254 706 943 651</p>
+            <p>
+              <a 
+              href="https://wa.me/254706943651?text=Hello%20*CyberTechOcean*%20%F0%9F%91%8B%F0%9F%8F%BB" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#34f4a4]">
+                +254 706 943 651
+              </a>
+            </p>
             <p className="text-sm text-gray-500 mt-2">(Call or message us anytime)</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <FontAwesomeIcon icon={faLocationDot} className="text-4xl text-[#34f4a4] mb-4" />
             <h3 className="text-xl font-semibold mb-2">Location</h3>
-            <p className="text-gray-600">Ruaraka, Nairobi, Kenya</p>
+            <p className="text-[#34f4a4]">Ruaraka, Nairobi, Kenya</p>
             <p className="text-sm text-gray-500 mt-2">(Visits by appointment)</p>
           </div>
         </div>

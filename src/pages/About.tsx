@@ -101,7 +101,7 @@ export default function About() {
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
             <p className="text-gray-600 italic mb-4">
-              "Bridging the digital divide by providing accessible, high-quality computer and internet services to our community."
+              "Bridging the digital divide by providing accessible, high-quality digital TECH services to our community."
             </p>
             <p className="text-gray-600">
               We believe technology should be within everyone's reach. Through fair pricing, expert guidance, and continuous training, we empower our neighbors in Ruaraka and beyond to thrive in an increasingly connected world.

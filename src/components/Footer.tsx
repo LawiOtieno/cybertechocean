@@ -9,6 +9,7 @@ import {
   faLinkedin,
   faThreads
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   const socialLinks = [
@@ -25,13 +26,24 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4 text-red-600">CyberTechOcean</h3>
             <p>
               Your one-stop cyber café solution. We provide Web Development, Career Assistance, 
               Government  Services (eCitizen), Graphic Design, Digital Marketing, Academic Writing, and Data Analysis.
             </p>
+          </div>
+          <div>
+            <h3 className="text-xl font-bold mb-4">Quick Links</h3>
+            <ul className="space-y-2">
+              <li><Link to="/" className="hover:text-red-600 transition-colors">Home</Link></li>
+              <li><Link to="/about" className="hover:text-red-600 transition-colors">About</Link></li>
+              <li><Link to="/services" className="hover:text-red-600 transition-colors">Services</Link></li>
+              <li><Link to="/projects" className="hover:text-red-600 transition-colors">Projects</Link></li>
+              <li><Link to="/testimonials" className="hover:text-red-600 transition-colors">Testimonials</Link></li>
+              <li><Link to="/contact" className="hover:text-red-600 transition-colors">Contact</Link></li>
+            </ul>
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Contact</h3>
